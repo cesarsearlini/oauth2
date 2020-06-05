@@ -1,0 +1,21 @@
+INSERT INTO PERMISSION
+    (NAME)
+VALUES
+    ('ADD_INFO'),
+    ('EDIT_INFO'),
+    ('DELETE_INFO');
+
+INSERT INTO ROLE
+    (NAME)
+VALUES
+	('ADMIN'),
+	('MANAGER');
+
+ INSERT INTO PERMISSION_ROLE
+    (PERMISSION_ID, ROLE_ID)
+ VALUES
+    (1,1),
+    (2,1),
+    (3,1),
+    (1,2),
+    (2,2);
